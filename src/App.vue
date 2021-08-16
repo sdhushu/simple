@@ -1,11 +1,9 @@
 <template>
-  
+
 </template>
 
 <script setup>
-import simplechip from "./components/Chip.vue"
-
-
+import simpleloading from "./components/Loading.vue";
 </script>
 <style>
 </style>
