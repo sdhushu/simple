@@ -1,9 +1,11 @@
 <template>
-
+  
 </template>
 
 <script setup>
-import simpleimg from "./components/Image.vue"
+import simplechip from "./components/Chip.vue"
+
+
 </script>
 <style>
 </style>
