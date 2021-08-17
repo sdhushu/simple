@@ -1,9 +1,12 @@
 <template>
-
+  
 </template>
-
+ 
 <script setup>
-import simpleloading from "./components/Loading.vue";
+import simplebadge from "./components/Badge.vue";
+import simplechip from "./components/Chip.vue";
+import simplebutton from './components/Button.vue'
+
 </script>
 <style>
 </style>
