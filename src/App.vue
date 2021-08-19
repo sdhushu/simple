@@ -3,7 +3,10 @@
 </template>
  
 <script setup>
-import simpledivider from "./components/Divider.vue";
+import simplebutton from "./components/Button.vue";
+
+import {ref} from 'vue'
+
 </script>
 <style>
 </style>
