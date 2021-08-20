@@ -2,7 +2,7 @@
   <button
     class="simple-button"
     :class="[
-      type ? `simple-button--${type} text-color` : '',
+      type ? `simple-button--${type}` : '',
       outline || text ? 'simple-button--outline' : '',
       type && outline && text ? `simple-button--${type}--color` : '',
       type && text && !outline
@@ -344,6 +344,7 @@ const props = defineProps({
 }
 .simple-button--primary {
   background-color: rgb(74, 130, 212);
+  color: #fff;
 }
 .simple-button--primary--color {
   color: rgb(74, 130, 212);
@@ -352,6 +353,7 @@ const props = defineProps({
 
 .simple-button--info {
   background-color: rgb(163, 191, 233);
+  color: #fff;
 }
 .simple-button--info--color {
   color: rgb(163, 191, 233);
@@ -359,6 +361,7 @@ const props = defineProps({
 }
 .simple-button--success {
   background-color: rgb(92, 218, 180);
+  color: #fff;
 }
 
 .simple-button--success--color {
@@ -367,6 +370,7 @@ const props = defineProps({
 }
 .simple-button--warning {
   background-color: rgb(221, 219, 77);
+  color: #fff;
 }
 .simple-button--warning--color {
   color: rgb(221, 219, 77);
@@ -374,6 +378,7 @@ const props = defineProps({
 }
 .simple-button--danger {
   background-color: rgb(233, 56, 56);
+  color: #fff;
 }
 .simple-button--danger--color {
   color: rgb(233, 56, 56);
