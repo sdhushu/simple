@@ -3,7 +3,7 @@
 </template>
  
 <script setup>
-import simpleinput from "./components/Input.vue";
+import simpleswitch from "./components/Switch.vue";
 import { ref } from "vue";
 
 </script>
