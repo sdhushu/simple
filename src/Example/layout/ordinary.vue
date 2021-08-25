@@ -1,5 +1,9 @@
 <template>
-
+  <simplewarp class="wrap">
+      <simpletitle><div>标题</div></simpletitle>
+      <simplebody><div>内容</div></simplebody>
+      <simplefoot><div>底部</div></simplefoot>
+  </simplewarp>
 </template>
  
 <script setup>
