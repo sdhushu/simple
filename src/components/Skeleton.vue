@@ -4,7 +4,7 @@
     :class="[avatar ? 'simple-skeleton--avatar' : '']"
   >
     <div class="simple-skeleton--logo" v-if="avatar">
-      <div class="logo"></div>
+      <div class="logo"><div v-if="loading" class="simple-skeleton--animation"></div></div>
     </div>
     <div :class="[avatar ? 'simple-item--wrap' : '']">
       <div class="simple-skeleton--item simple-skeleton--title" v-if="title">
@@ -66,6 +66,7 @@ export default {
   background-color: #e0e0e0;
   position: relative;
   margin-top: 10px;
+  overflow: hidden;
 }
 .simple-skeleton--animation::after {
   content: "";
@@ -94,6 +95,8 @@ export default {
   height: 60px;
   border-radius: 50%;
   background-color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
 }
 
 @keyframes simple-skeleton--animation {
