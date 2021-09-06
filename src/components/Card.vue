@@ -1,6 +1,6 @@
 <template>
     <div class="simple-card">
-        <img class="card-img" :src="src" alt="图片">
+        <img class="card-img" :src="src" alt="图片" v-if="src">
         <div class="card-title">{{title}}</div>
         <div class="card-sub" v-if="subtitle">{{subtitle}}</div>
         <div class="card-desc">{{description}}</div>
