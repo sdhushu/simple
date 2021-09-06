@@ -210,7 +210,7 @@
       viewBox="0 0 100 100"
       enable-background="new 0 0 100 100"
       xml:space="preserve"
-      v-if="loadingType=='wave'"
+      v-if="loadingType == 'wave'"
     >
       <circle
         fill="none"
@@ -328,8 +328,8 @@ const props = defineProps({
 .simple-button {
   position: relative;
   width: auto;
-  height: 35px;
-  padding: 0 20px;
+  height: 40px;
+  padding: 0 10px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -339,25 +339,10 @@ const props = defineProps({
   font-family: inherit;
   cursor: pointer;
   font-size: 14px;
+  overflow: hidden;
 }
 
-.simple-button::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(circle, #ccc 10%, transparent 10.1%);
-  transform: scale(10);
-  opacity: 0;
-  transition: all .6s;
-}
-.simple-button:active::after {
-  transform: scale(0);
-  opacity: .5;
-  transition: 0s;
-}
+
 .text-color {
   color: #fff;
 }
