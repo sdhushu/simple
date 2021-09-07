@@ -347,12 +347,12 @@ const props = defineProps({
   color: #fff;
 }
 .simple-button--primary {
-  background-color: rgb(74, 130, 212);
+  background-color: #3DB2FF;
   color: #fff;
 }
 .simple-button--primary--color {
-  color: rgb(74, 130, 212);
-  border: 1px solid rgb(74, 130, 212);
+  color: #3DB2FF;
+  border: 1px solid #3DB2FF;
 }
 
 .simple-button--info {
@@ -373,20 +373,20 @@ const props = defineProps({
   border: 1px solid rgb(92, 218, 180);
 }
 .simple-button--warning {
-  background-color: rgb(221, 219, 77);
+  background-color: #FFB830;
   color: #fff;
 }
 .simple-button--warning--color {
-  color: rgb(221, 219, 77);
-  border: 1px solid rgb(221, 219, 77);
+  color: #FFB830;
+  border: 1px solid #FFB830;
 }
 .simple-button--danger {
-  background-color: rgb(233, 56, 56);
+  background-color: #FF2442;
   color: #fff;
 }
 .simple-button--danger--color {
-  color: rgb(233, 56, 56);
-  border: 1px solid rgb(233, 56, 56);
+  color: #FF2442;
+  border: 1px solid #FF2442;
 }
 .simple-button--outline {
   background-color: #fff;
