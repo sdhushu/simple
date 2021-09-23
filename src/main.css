@@ -1,0 +1,33 @@
+/* .button:hover {
+
+} */
+
+.button:active {
+  transform: translateY(4px);
+}
+
+.water {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.water::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle, rgb(230, 228, 228) 50%, transparent 10.1%);
+  transform: scale(10);
+  opacity: 0;
+  transition: all 2s;
+}
+
+.water:active:after {
+  transform: scale(0);
+  opacity: .8;
+  transition: 0s;
+  pointer-events:none;
+}
