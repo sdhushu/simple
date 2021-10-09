@@ -1,6 +1,6 @@
 {
-  "name": "simple",
-  "version": "0.0.0",
+  "name": "simples-ui",
+  "version": "0.0.9",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

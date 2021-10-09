@@ -74,6 +74,7 @@ export default {
   padding-left: 55px;
   /* background-color: aqua; */
   display: flex;
+  position: relative;
 }
 .simple-line {
   width: 0;
